@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                                     intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                                     // editText에서 입력한 비밀번호를 다음 액티비티로 전달하기 위해 엑스트라 필드에 값을 저장
                                     intent.putExtra("input",editPassword);
-                                    // CalendarDiary 액티비티 시
+                                    // CalendarDiary 액티비티 시작
                                     startActivity(intent);
                                 }
                             });
